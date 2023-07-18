@@ -241,4 +241,8 @@ footer li {
   justify-content: space-between;
   align-content: center;
 }
-
+/* modifiche wave*/
+.upside-down-image {
+  transform: rotate(180deg);
+  filter: grayscale();
+}
