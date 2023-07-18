@@ -251,7 +251,8 @@ footer li {
 }
 .onde-base {
   filter: invert(100%) sepia(2%) saturate(5228%) hue-rotate(26deg) brightness(116%) contrast(93%);
-  
+  /*per eliminare riga ho fatto sovraporre limmagine alla sezione */
+  margin-bottom: -4px;
 }
 
 
