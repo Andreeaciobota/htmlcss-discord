@@ -244,5 +244,15 @@ footer li {
 /* modifiche wave*/
 .upside-down-image {
   transform: rotate(180deg);
-  filter: grayscale();
+  /*ho usato programma di conversione colore in filtri 
+  CSS filter generator to convert from black to target hex color per riuscire a manipolare il colore di sfondo del svg*/
+  filter: invert(100%) sepia(2%) saturate(5228%) hue-rotate(26deg) brightness(116%) contrast(93%);
+  
 }
+.onde-base {
+  filter: invert(100%) sepia(2%) saturate(5228%) hue-rotate(26deg) brightness(116%) contrast(93%);
+  
+}
+
+
+
